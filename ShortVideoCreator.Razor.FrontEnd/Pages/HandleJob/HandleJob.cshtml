@@ -1,0 +1,18 @@
+@page "HandleJob/{jobId}"
+@model ShortVideoCreator.Razor.FrontEnd.Pages.HandleJob.HandleJob
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Short Video Content Generator</title>
+</head>
+<body>
+<div>
+   <form enctype="multipart/form-data" method="post">
+       <input asp-page-handler="Upload" class="btn" type="submit" value="Generate Content Using Random Video available from the library" />
+   </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>    
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="ShortVideoCreator.DocumentProcessing\**" />
+      <Compile Remove="ShortVideoCreator.SpeechProcessing\**" />
+      <Compile Remove="ShortVideoTTS\**" />
+      <Compile Remove="ShortVideoCreator.VideoProcessing\**" />
+      <Compile Remove="ShortVideoCreator.Storage\**" />
+      <Compile Remove="ShortVideoCreator.Api\**" />
+      <Compile Remove="ShortVideoCreator.FrontEnd\**" />
+      <Compile Remove="ShortVideoCreator.Razor.FrontEnd\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ShortVideoCreator.DocumentProcessing\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.SpeechProcessing\**" />
+      <EmbeddedResource Remove="ShortVideoTTS\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.VideoProcessing\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.Storage\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.Api\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.FrontEnd\**" />
+      <EmbeddedResource Remove="ShortVideoCreator.Razor.FrontEnd\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ShortVideoCreator.DocumentProcessing\**" />
+      <None Remove="ShortVideoCreator.SpeechProcessing\**" />
+      <None Remove="ShortVideoTTS\**" />
+      <None Remove="ShortVideoCreator.VideoProcessing\**" />
+      <None Remove="ShortVideoCreator.Storage\**" />
+      <None Remove="ShortVideoCreator.Api\**" />
+      <None Remove="ShortVideoCreator.FrontEnd\**" />
+      <None Remove="ShortVideoCreator.Razor.FrontEnd\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="ShortVideoCreator.DocumentProcessing\ShortVideoCreator.DocumentProcessing.csproj" />
+      <ProjectReference Include="ShortVideoCreator.SpeechProcessing\ShortVideoCreator.SpeechProcessing.csproj" />
+      <ProjectReference Include="ShortVideoCreator.Storage\ShortVideoCreator.Storage.csproj" />
+      <ProjectReference Include="ShortVideoCreator.VideoProcessing\ShortVideoCreator.VideoProcessing.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.7.24405.7" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div id="index-page" class="text-center">
+    <h1 class="display-4">ShortVideoCreator</h1>
+    <h3>some notes before getting in</h3>
+    <ul>
+        <li>1. Don't upload a huge file, the application is relying on localstorage to work</li>
+        <li>2. requesting you to give application a workspace (should be updated in appsettings.json)</li>
+        <li>3. upload only .pdf files for content generation</li>
+        <li>..lot more issues / security attacks are possible, this is just a POC</li>
+    </ul>
+    <h2>How this works! A glimpse</h2>
+    <img src="images/ShortVideoGenerator-FlowDiagram.png"></img>
+</div>

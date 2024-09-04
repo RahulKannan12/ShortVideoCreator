@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator", "ShortVideoCreator.csproj", "{6E606CB5-66A9-498D-B4BA-685ACFC534F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator.DocumentProcessing", "ShortVideoCreator.DocumentProcessing\ShortVideoCreator.DocumentProcessing.csproj", "{DD058C35-1B04-4BEB-A70C-BB56D3C7531D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator.SpeechProcessing", "ShortVideoCreator.SpeechProcessing\ShortVideoCreator.SpeechProcessing.csproj", "{8FDD6EB0-3C6C-4711-8271-E8FF4F597E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator.VideoProcessing", "ShortVideoCreator.VideoProcessing\ShortVideoCreator.VideoProcessing.csproj", "{59AFE8E0-79FF-4B68-ACBD-8DA8D90B85C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator.Storage", "ShortVideoCreator.Storage\ShortVideoCreator.Storage.csproj", "{556AC371-26ED-4C40-9E0E-0B378CAB0316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortVideoCreator.Razor.FrontEnd", "ShortVideoCreator.Razor.FrontEnd\ShortVideoCreator.Razor.FrontEnd.csproj", "{CF116ADE-2F87-4D9D-9AE4-0318B9F0E4B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlowDiagram", "FlowDiagram", "{244E85E6-68F7-45C9-8FE6-ABDCAE16DE34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E606CB5-66A9-498D-B4BA-685ACFC534F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E606CB5-66A9-498D-B4BA-685ACFC534F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E606CB5-66A9-498D-B4BA-685ACFC534F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E606CB5-66A9-498D-B4BA-685ACFC534F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD058C35-1B04-4BEB-A70C-BB56D3C7531D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD058C35-1B04-4BEB-A70C-BB56D3C7531D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD058C35-1B04-4BEB-A70C-BB56D3C7531D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD058C35-1B04-4BEB-A70C-BB56D3C7531D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDD6EB0-3C6C-4711-8271-E8FF4F597E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDD6EB0-3C6C-4711-8271-E8FF4F597E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDD6EB0-3C6C-4711-8271-E8FF4F597E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDD6EB0-3C6C-4711-8271-E8FF4F597E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AFE8E0-79FF-4B68-ACBD-8DA8D90B85C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AFE8E0-79FF-4B68-ACBD-8DA8D90B85C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AFE8E0-79FF-4B68-ACBD-8DA8D90B85C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AFE8E0-79FF-4B68-ACBD-8DA8D90B85C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556AC371-26ED-4C40-9E0E-0B378CAB0316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556AC371-26ED-4C40-9E0E-0B378CAB0316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556AC371-26ED-4C40-9E0E-0B378CAB0316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556AC371-26ED-4C40-9E0E-0B378CAB0316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF116ADE-2F87-4D9D-9AE4-0318B9F0E4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF116ADE-2F87-4D9D-9AE4-0318B9F0E4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF116ADE-2F87-4D9D-9AE4-0318B9F0E4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF116ADE-2F87-4D9D-9AE4-0318B9F0E4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
